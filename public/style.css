@@ -2365,7 +2365,8 @@
 
 			.image.fit img {
 				width: 100%;
-			}
+            }
+            
 
 		.image.main {
 			display: block;
@@ -2528,8 +2529,8 @@
 		max-width: 65em;
 		width: calc(100% - 6em);
 		margin: 0 auto;
-	}
-
+    }
+    
 		@media screen and (max-width: 480px) {
 
 			section .inner {
@@ -3746,7 +3747,17 @@
 				padding: 2em 0 0.1em 0;
 			}
 
-		}
+        }
+        
+/* MascotBot*/
+    #mascotBot img{
+        width: 200px;
+        height: 200px;
+        position: fixed;
+        right:0;
+        bottom:0;
+        z-index: 9999999;
+    }
 
 /* Footer */
 
