@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>intronet</title>
+
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/8.2.2/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/8.2.2/firebase-auth.js"></script>
+  <script defer src="/__/firebase/8.2.2/firebase-database.js"></script>
+  <script defer src="/__/firebase/8.2.2/firebase-firestore.js"></script>
+  <script defer src="/__/firebase/8.2.2/firebase-functions.js"></script>
+  <script defer src="/__/firebase/8.2.2/firebase-messaging.js"></script>
+  <script defer src="/__/firebase/8.2.2/firebase-storage.js"></script>
+  <script defer src="/__/firebase/8.2.2/firebase-analytics.js"></script>
+  <script defer src="/__/firebase/8.2.2/firebase-remote-config.js"></script>
+  <script defer src="/__/firebase/8.2.2/firebase-performance.js"></script>
+  <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+  <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+  <!--link to css stylesheet-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!--template taken from Introspect by TEMPLATED, creative rights go to *author*-->
+
+  <!-- Header -->
+  <header id="header">
+    <div class="inner">
+      <a href="index.html" class="logo">intronet</a>
+
+      <!-- Navigation Bar -->
+      <nav id="nav">
+        <a href="index.html">home</a>
+        <a href="beginner.html">beginner</a>
+        <a href="intermediate.html">intermediate</a>
+        <a href="advanced.html">advanced</a>
+      </nav>
+    </div>
+  </header>
+  <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+  <!-- Banner -->
+  <section id="banner">
+    <div class="inner">
+      <h1>ADVANCED GUIDES
+        <span><br />your guide on fully utilizing what the onlien world has to offer</span>
+      </h1>
+
+      <!-- search bar -->
+      <form class="search-bar" action="./search.html">
+        <input class="search-placeholder" type="text" placeholder="eg. how do I send an email?" name="search">
+        <button href="search.html" style="float: left; width: 20%;" type="submit">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+
+    </div>
+  </section>
+
+    <!-- online shopping -->
+    <section id="one">
+        
+        <div class="inner">
+          <header>
+            <h2>HOW TO SHOP ONLINE</h2>
+          </header>      
+          <p>Learn how to online for goods from the internet. Learn how to search for products, look at reviews, 
+              compare pricing with different platforms, buy and return your items.</p>
+          <ul class="actions">
+            <li><a href="#" class="button alt">click to learn about online shopping</a></li>
+          </ul>
+        </div>
+      </section>      
+  
+      <!-- internet services -->
+      <section id="two">
+        <div class="inner">
+            <header>
+              <h2>HOW TO USE INTERNET SERVICES</h2>
+            </header>
+        </div>
+        <div class="inner">
+            <p>Learn how to utilize online services. Learn how to find education materials, 
+                find online entertainment and more.</p>
+        </div>
+        <div class="inner">
+            <ul class="actions">
+              <li><a href="#" class="button alt">Click to learn about internet services</a></li>
+            </ul>
+        </div>
+        
+      </section>
+
+
+    <!-- INTERNET LESSONS -->
+    <section id="one">
+        
+        <div class="inner">
+          <header>
+            <h2>HOW TO USE SOCIAL MEDIA</h2>
+          </header>
+          
+          <p>Learn how to communicate with others using an online platform. You will learn 
+              how to set up an account and interact with others.</p>
+          <ul class="actions">
+            <li><a href="#" class="button alt">Click to learn about social media</a></li>
+          </ul>
+        </div>
+      </section>      
+ 
+  <!-- mascotBot -->
+  <section id="mascotBot">
+    <div>
+      <img src="images/mascot.png" alt="" />
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section id="footer">
+  </section>
+</body>
+
+</html>
