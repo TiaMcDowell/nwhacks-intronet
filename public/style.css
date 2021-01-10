@@ -9,6 +9,22 @@
 */
 
 /* Reset */
+#email-image-1 {
+	width: 100%;
+	height: auto;
+}
+
+#email-image-2 {
+	width: 100%;
+	height: auto;
+	max-width: 550px;
+}
+
+#email-image-3 {
+	width: 100%;
+	height: auto;
+	max-width: 300px;
+}
 
 #search-text {
 
